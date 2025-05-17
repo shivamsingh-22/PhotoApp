@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="MyPrayagraj"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:id="@+id/pic0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/station"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/airport"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bridge"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/anandbhawan"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/highcourt"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/au"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/museum"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clocktower"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/library"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fort"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mintopark"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/khusrobagh"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sangam"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/akshayavat"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hanumantemple"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kalyanidevitemple"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nagvasukimandir"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+        <ImageView
+            android:id="@+id/pic17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shivtemple"
+            tools:layout_editor_absoluteX="0dp"
+            android:alpha="0"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btnpre"
+            android:layout_width="151dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:background="@color/teal_200"
+            android:src="@android:drawable/ic_media_rew" />
+
+        <ImageButton
+            android:id="@+id/btnnext"
+            android:layout_width="163dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:background="@color/teal_200"
+            android:src="@android:drawable/ic_media_ff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="399dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Railway Station"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
