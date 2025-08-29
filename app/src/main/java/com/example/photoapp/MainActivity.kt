@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
             var idToShowimage="pic$currentimage"
             var idToShowimageint=this.resources.getIdentifier(idToShowimage,"id",packageName)
             image=findViewById<ImageButton>(idToShowimageint)
-             //for the invisible the current image
+             //Finds the new image and makes it visible (alpha = 1f = fully visible).
             image.alpha=1f
 
             placeName.text=place[currentimage]
@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
             // i want to get int address associated with each pic
             var idcurrentimageint=this.resources.getIdentifier(idcurretimagestring,"id",packageName)
             image=findViewById<ImageButton>(idcurrentimageint)
-            //for the invisible the current image
+            //Makes the current image invisible (alpha = 0 means fully transparent).
             image.alpha=0f
 
             currentimage=(18+currentimage+1)%18
