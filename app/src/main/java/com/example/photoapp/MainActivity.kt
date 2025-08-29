@@ -42,6 +42,7 @@ class MainActivity : ComponentActivity() {
             var idToShowimage="pic$currentimage"
             var idToShowimageint=this.resources.getIdentifier(idToShowimage,"id",packageName)
             image=findViewById<ImageButton>(idToShowimageint)
+             //for the invisible the current image
             image.alpha=1f
 
             placeName.text=place[currentimage]
