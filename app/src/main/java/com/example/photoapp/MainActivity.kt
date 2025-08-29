@@ -54,6 +54,7 @@ class MainActivity : ComponentActivity() {
             // i want to get int address associated with each pic
             var idcurrentimageint=this.resources.getIdentifier(idcurretimagestring,"id",packageName)
             image=findViewById<ImageButton>(idcurrentimageint)
+            //for the invisible the current image
             image.alpha=0f
 
             currentimage=(18+currentimage+1)%18
